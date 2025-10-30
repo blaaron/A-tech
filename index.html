@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <link rel="icon" type="image/png" sizes="32x32" href="A+ favicon.png">
+  
+        <title>
+            A+ Tech
+        </title>
+    </head>
+
+    <style>
+        .title{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.h1{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.p{
+    font-style: italic;
+    font-size: medium;
+}
+
+.attribution{
+     font-size: 11px; text-align: center; 
+     color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-color: #1a1d29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+.card{
+    background-color: white;
+    color: #2c3e50;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 400px;
+    width:100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img{
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.2rem;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1rem;
+  }
+}
+
+    </style>
+       
+    <body>
+        <main class="card">
+            <img src="favicon.png" alt="A+ tech IMage" class="card-img"/>
+
+         <h1 class="title">Who are we ?</h1> 
+        <P class="p">
+            A+ Tech is a cutting-edge web design and web application development company dedicated to delivering excellence in digital solutions. We specialize in creating stunning, user-friendly websites and powerful web applications that help businesses thrive in the digital landscape.
+            Our team combines creative design with technical expertise to build responsive, modern websites and robust web applications tailored to meet your unique business needs. Whether you're looking for a compelling online presence, an e-commerce platform, or a custom web application, A+ Tech transforms your vision into reality with precision and innovation.
+            At A+ Tech, we don't just build websites—we craft digital experiences that engage users, drive results, and position your brand for success in today's competitive online marketplace
+        </P>
+      
+        <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">B.Aaron</a>.
+        </div>
+
+        </main>
+        
+        
+         
+  
+    </body>
+   
+</html>
